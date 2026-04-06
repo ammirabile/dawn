@@ -22,8 +22,8 @@
         "footer-2": {
           "type": "text",
           "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "heading": "About Velora",
+            "subtext": "<p>We bring you the most exciting trending products from around the world. Free shipping on every order, backed by our 30-day money-back guarantee.<\/p>"
           }
         }
       },
@@ -35,7 +35,7 @@
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "Get exclusive deals & new arrivals",
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
