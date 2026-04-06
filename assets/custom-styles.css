@@ -63,7 +63,9 @@
 .trust-badge svg {
   width: 32px;
   height: 32px;
-  fill: var(--color-primary);
+  fill: none;
+  stroke: var(--color-accent);
+  color: var(--color-accent);
 }
 
 /* Shipping notice on product pages */
