@@ -1,0 +1,86 @@
+/* Velora Brand Overrides */
+:root {
+  --color-primary: #1A1A2E;
+  --color-accent: #E94560;
+  --color-background: #FFFFFF;
+  --color-text: #333333;
+  --color-secondary-bg: #F5F5F5;
+}
+
+/* Announcement bar */
+.announcement-bar {
+  background-color: var(--color-primary);
+  color: #FFFFFF;
+  text-align: center;
+  padding: 8px 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* CTA buttons */
+.button--primary,
+.shopify-payment-button__button {
+  background-color: var(--color-accent) !important;
+  border-color: var(--color-accent) !important;
+  color: #FFFFFF !important;
+  border-radius: 4px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.button--primary:hover {
+  background-color: #D63851 !important;
+  border-color: #D63851 !important;
+}
+
+/* Product card hover effect */
+.card-wrapper:hover {
+  transform: translateY(-2px);
+  transition: transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Trust badges section */
+.trust-badges {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px 20px;
+  background: var(--color-secondary-bg);
+  text-align: center;
+}
+
+.trust-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--color-text);
+}
+
+.trust-badge svg {
+  width: 32px;
+  height: 32px;
+  fill: var(--color-primary);
+}
+
+/* Shipping notice on product pages */
+.shipping-notice {
+  background: #FFF8E1;
+  border: 1px solid #FFE082;
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin: 16px 0;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Sale badge */
+.badge--sale {
+  background-color: var(--color-accent) !important;
+  color: #FFFFFF !important;
+}
