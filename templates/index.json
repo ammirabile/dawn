@@ -82,16 +82,21 @@
             "heading_size": "h1"
           }
         },
-        "subheading": {
-          "type": "subheading",
+        "paragraph": {
+          "type": "paragraph",
           "settings": {
-            "subheading": "Get pet tips, early access to new arrivals and exclusive deals."
+            "text": "<p>Get pet tips, early access to new arrivals and exclusive deals.</p>",
+            "text_style": "subtitle"
           }
+        },
+        "email_form": {
+          "type": "email_form"
         }
       },
       "block_order": [
         "heading",
-        "subheading"
+        "paragraph",
+        "email_form"
       ],
       "settings": {
         "color_scheme": "scheme-4",
