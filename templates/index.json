@@ -73,7 +73,7 @@
       }
     },
     "email_signup": {
-      "type": "email-signup-banner",
+      "type": "newsletter",
       "blocks": {
         "heading": {
           "type": "heading",
@@ -85,8 +85,7 @@
         "paragraph": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Get pet tips, early access to new arrivals and exclusive deals.</p>",
-            "text_style": "subtitle"
+            "text": "<p>Get pet tips, early access to new arrivals and exclusive deals.</p>"
           }
         },
         "email_form": {
@@ -101,8 +100,6 @@
       "settings": {
         "color_scheme": "scheme-4",
         "full_width": true,
-        "button_label": "Subscribe",
-        "button_link": "",
         "padding_top": 52,
         "padding_bottom": 52
       }
