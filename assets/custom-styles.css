@@ -10,7 +10,7 @@
 
 /* Announcement bar */
 .announcement-bar {
-  background-color: var(--color-primary);
+  background-color: var(--color-accent);
   color: #FFFFFF;
   text-align: center;
   padding: 8px 0;

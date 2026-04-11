@@ -40,21 +40,21 @@
             "background": "#1F3D2B",
             "background_gradient": "",
             "text": "#FFFFFF",
-            "button": "#2E5E3E",
+            "button": "#C9A84C",
             "button_label": "#FFFFFF",
-            "secondary_button_label": "#FFFFFF",
+            "secondary_button_label": "#C9A84C",
             "shadow": "#0F1F16"
           }
         },
         "scheme-4": {
           "settings": {
-            "background": "#162B1E",
+            "background": "#243D2C",
             "background_gradient": "",
-            "text": "#FFFFFF",
-            "button": "#2E5E3E",
+            "text": "#F5F1EB",
+            "button": "#C9A84C",
             "button_label": "#FFFFFF",
-            "secondary_button_label": "#FFFFFF",
-            "shadow": "#000000"
+            "secondary_button_label": "#F5F1EB",
+            "shadow": "#0F1F16"
           }
         },
         "scheme-5": {
