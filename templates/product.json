@@ -47,7 +47,7 @@
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
-            "content": "We offer free shipping on all orders to Australia. Estimated delivery time is 7–20 business days. If you're not completely satisfied, contact us within 30 days of receiving your order for a full refund or replacement — no questions asked.",
+            "content": "<p>We offer free shipping on all orders to Australia. Estimated delivery time is 7–20 business days.<\/p><p>If you're not completely satisfied, contact us within 30 days of receiving your order for a full refund or replacement — no questions asked.<\/p>",
             "page": ""
           }
         },
