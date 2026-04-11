@@ -32,7 +32,7 @@
           "type": "text",
           "settings": {
             "heading": "About Velora",
-            "subtext": "<p>We bring you the most exciting trending products from around the world. Free shipping on every order, backed by our 30-day money-back guarantee.<\/p>"
+            "subtext": "<p>Premium products for dogs and cats, curated with love. Free shipping on every order, backed by our 30-day money-back guarantee.<\/p>"
           }
         }
       },
@@ -44,7 +44,7 @@
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
-        "newsletter_heading": "Get exclusive deals & new arrivals",
+        "newsletter_heading": "Get pet tips, deals & new arrivals",
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,

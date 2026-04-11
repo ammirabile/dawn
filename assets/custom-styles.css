@@ -1,10 +1,10 @@
 /* Velora Brand Overrides */
 :root {
-  --color-primary: #1A1A2E;
-  --color-accent: #E94560;
+  --color-primary: #2D6A4F;
+  --color-accent: #F4A261;
   --color-background: #FFFFFF;
   --color-text: #333333;
-  --color-secondary-bg: #F5F5F5;
+  --color-secondary-bg: #F8F4EF;
 }
 
 /* Announcement bar */
@@ -30,8 +30,8 @@
 }
 
 .button--primary:hover {
-  background-color: #D63851 !important;
-  border-color: #D63851 !important;
+  background-color: #E8924F !important;
+  border-color: #E8924F !important;
 }
 
 /* Product card hover effect */
@@ -89,8 +89,8 @@
   background: linear-gradient(
     to bottom,
     transparent 20%,
-    rgba(26, 26, 46, 0.6) 70%,
-    rgba(26, 26, 46, 0.85) 100%
+    rgba(45, 106, 79, 0.55) 70%,
+    rgba(45, 106, 79, 0.8) 100%
   );
   pointer-events: none;
   z-index: 1;
