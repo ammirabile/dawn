@@ -1,10 +1,11 @@
 /* Velora Brand Overrides */
 :root {
-  --color-primary: #2D6A4F;
-  --color-accent: #F4A261;
-  --color-background: #FFFFFF;
-  --color-text: #333333;
-  --color-secondary-bg: #F8F4EF;
+  --color-primary: #1F3D2B;
+  --color-accent: #2E5E3E;
+  --color-background: #F5F1EB;
+  --color-text: #2A2A2A;
+  --color-secondary-bg: #EDE8E0;
+  --color-gold: #C9A84C;
 }
 
 /* Announcement bar */
@@ -30,8 +31,8 @@
 }
 
 .button--primary:hover {
-  background-color: #E8924F !important;
-  border-color: #E8924F !important;
+  background-color: #255033 !important;
+  border-color: #255033 !important;
 }
 
 /* Product card hover effect */
@@ -70,8 +71,8 @@
 
 /* Shipping notice on product pages */
 .shipping-notice {
-  background: #FFF8E1;
-  border: 1px solid #FFE082;
+  background: #F0F7F2;
+  border: 1px solid #C5DBC9;
   border-radius: 6px;
   padding: 12px 16px;
   margin: 16px 0;
@@ -89,8 +90,8 @@
   background: linear-gradient(
     to bottom,
     transparent 20%,
-    rgba(45, 106, 79, 0.55) 70%,
-    rgba(45, 106, 79, 0.8) 100%
+    rgba(31, 61, 43, 0.55) 70%,
+    rgba(31, 61, 43, 0.8) 100%
   );
   pointer-events: none;
   z-index: 1;
@@ -100,4 +101,11 @@
 .badge--sale {
   background-color: var(--color-accent) !important;
   color: #FFFFFF !important;
+}
+
+/* Star ratings — golden touch */
+.rating-star,
+.product__rating .icon-star {
+  color: var(--color-gold) !important;
+  fill: var(--color-gold) !important;
 }
