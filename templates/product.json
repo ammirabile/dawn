@@ -82,49 +82,14 @@
         "padding_bottom": 12
       }
     },
-    "image-with-text": {
-      "type": "image-with-text",
-      "blocks": {
-        "image-with-text-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "image-with-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "image-with-text-0",
-        "image-with-text-1"
-      ],
-      "settings": {
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "scheme-2",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
         "column-0": {
           "type": "column",
           "settings": {
-            "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Free Shipping to Australia",
+            "text": "<p>Every order ships free — no minimum spend, no exceptions. Estimated delivery 7–20 business days straight to your door.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -132,8 +97,17 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "30-Day Money-Back Guarantee",
+            "text": "<p>Not happy with your purchase? Contact us within 30 days for a full refund or free replacement. No questions asked.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-2": {
+          "type": "column",
+          "settings": {
+            "title": "Secure Checkout",
+            "text": "<p>Shop with confidence. Your payment details are protected with industry-standard encryption at every step.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -141,20 +115,21 @@
       },
       "block_order": [
         "column-0",
-        "column-1"
+        "column-1",
+        "column-2"
       ],
       "settings": {
         "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 2,
+        "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
         "swipe_on_mobile": false,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-2",
         "columns_mobile": "1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -179,7 +154,6 @@
   },
   "order": [
     "main",
-    "image-with-text",
     "multicolumn",
     "related-products"
   ]
