@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -11,7 +20,8 @@
           }
         },
         "title": {
-          "type": "title"
+          "type": "title",
+          "settings": {}
         },
         "caption": {
           "type": "text",
@@ -21,7 +31,8 @@
           }
         },
         "price": {
-          "type": "price"
+          "type": "price",
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -30,7 +41,8 @@
           }
         },
         "quantity_selector": {
-          "type": "quantity_selector"
+          "type": "quantity_selector",
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -40,14 +52,15 @@
           }
         },
         "description": {
-          "type": "description"
+          "type": "description",
+          "settings": {}
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
-            "content": "<p>We offer free shipping on all orders to Australia. Estimated delivery time is 7–20 business days.<\/p><p>If you're not completely satisfied, contact us within 30 days of receiving your order for a full refund or replacement — no questions asked.<\/p>",
+            "content": "<p>We offer free shipping on all orders to Australia. Estimated delivery time is 7–20 business days.</p><p>If you're not completely satisfied, contact us within 30 days of receiving your order for a full refund or replacement — no questions asked.</p>",
             "page": ""
           }
         },
@@ -72,9 +85,9 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "gallery_layout": "stacked",
         "media_size": "large",
         "constrain_to_viewport": true,
+        "gallery_layout": "stacked",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
@@ -89,7 +102,7 @@
           "type": "column",
           "settings": {
             "title": "Free Shipping to Australia",
-            "text": "<p>Every order ships free — no minimum spend, no exceptions. Estimated delivery 7–20 business days straight to your door.<\/p>",
+            "text": "<p>Every order ships free — no minimum spend, no exceptions. Estimated delivery 7–20 business days straight to your door.</p>",
             "link_label": "",
             "link": ""
           }
@@ -98,7 +111,7 @@
           "type": "column",
           "settings": {
             "title": "30-Day Money-Back Guarantee",
-            "text": "<p>Not happy with your purchase? Contact us within 30 days for a full refund or free replacement. No questions asked.<\/p>",
+            "text": "<p>Not happy with your purchase? Contact us within 30 days for a full refund or free replacement. No questions asked.</p>",
             "link_label": "",
             "link": ""
           }
@@ -107,7 +120,7 @@
           "type": "column",
           "settings": {
             "title": "Secure Checkout",
-            "text": "<p>Shop with confidence. Your payment details are protected with industry-standard encryption at every step.<\/p>",
+            "text": "<p>Shop with confidence. Your payment details are protected with industry-standard encryption at every step.</p>",
             "link_label": "",
             "link": ""
           }
@@ -123,14 +136,14 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": false,
         "color_scheme": "scheme-2",
         "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -141,12 +154,12 @@
         "heading": "You may also like",
         "heading_size": "h2",
         "columns_desktop": 4,
+        "columns_mobile": "2",
         "color_scheme": "scheme-1",
         "image_ratio": "square",
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 28
       }
