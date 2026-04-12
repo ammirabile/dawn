@@ -93,24 +93,6 @@
   color: var(--color-primary);
 }
 
-/* ── Hero banner: image override ─────────────────────── */
-/* shopify://shop_images/ resolution fallback via direct CDN */
-.banner .banner__media {
-  position: relative;
-}
-.banner .banner__media img[src*="Modern_tech_accessories"] {
-  display: none !important;
-}
-.banner .banner__media::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-image: url('https://cdn.shopify.com/s/files/1/0706/1022/3187/files/hero-pets-banner.png?v=1775997558');
-  background-size: cover;
-  background-position: center;
-  z-index: 0;
-}
-
 /* ── Hero banner: gradient overlay ───────────────────── */
 .banner .banner__media::after {
   content: '';
