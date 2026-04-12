@@ -8,18 +8,24 @@
   --color-gold: #C9A84C;
 }
 
-/* Announcement bar */
+/* ── Announcement bar ────────────────────────────────── */
 .announcement-bar {
-  background-color: var(--color-secondary-bg);
-  color: var(--color-primary);
+  background-color: var(--color-secondary-bg) !important;
+  color: var(--color-primary) !important;
   text-align: center;
   padding: 8px 0;
   font-size: 14px;
   font-weight: 600;
   border-bottom: 1px solid #DDD8CF;
 }
+.announcement-bar__message,
+.announcement-bar__message a,
+.announcement-bar a {
+  color: var(--color-primary) !important;
+}
 
-/* CTA buttons */
+/* ── CTA buttons ─────────────────────────────────────── */
+.button,
 .button--primary,
 .shopify-payment-button__button {
   background-color: var(--color-accent) !important;
@@ -30,20 +36,22 @@
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
-
+.button:hover,
 .button--primary:hover {
   background-color: #255033 !important;
   border-color: #255033 !important;
 }
 
-/* Product card hover effect */
+/* ── Product card hover ──────────────────────────────── */
+.card-wrapper {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
 .card-wrapper:hover {
   transform: translateY(-2px);
-  transition: transform 0.2s ease;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-/* Trust badges section */
+/* ── Trust badges section ────────────────────────────── */
 .trust-badges {
   display: flex;
   justify-content: center;
@@ -51,8 +59,8 @@
   padding: 30px 20px;
   background: var(--color-secondary-bg);
   text-align: center;
+  flex-wrap: wrap;
 }
-
 .trust-badge {
   display: flex;
   flex-direction: column;
@@ -60,17 +68,18 @@
   gap: 8px;
   font-size: 13px;
   color: var(--color-text);
+  font-weight: 500;
 }
-
 .trust-badge svg {
   width: 32px;
   height: 32px;
   fill: none;
   stroke: var(--color-accent);
+  stroke-width: 2;
   color: var(--color-accent);
 }
 
-/* Shipping notice on product pages */
+/* ── Shipping notice on product pages ────────────────── */
 .shipping-notice {
   background: #F0F7F2;
   border: 1px solid #C5DBC9;
@@ -81,9 +90,10 @@
   display: flex;
   align-items: center;
   gap: 8px;
+  color: var(--color-primary);
 }
 
-/* Hero banner: bottom gradient overlay for light images */
+/* ── Hero banner: gradient overlay ───────────────────── */
 .banner .banner__media::after {
   content: '';
   position: absolute;
@@ -98,15 +108,118 @@
   z-index: 1;
 }
 
-/* Sale badge */
+/* ── Sale badge ──────────────────────────────────────── */
 .badge--sale {
   background-color: var(--color-accent) !important;
   color: #FFFFFF !important;
 }
 
-/* Star ratings — golden touch */
+/* ── Star ratings — golden ───────────────────────────── */
+.icon-star,
+.icon-star-empty,
+.rating__star,
 .rating-star,
-.product__rating .icon-star {
+.product__rating .icon-star,
+.product-card__rating svg,
+[class*="rating"] svg,
+.rating svg {
   color: var(--color-gold) !important;
   fill: var(--color-gold) !important;
+  stroke: var(--color-gold) !important;
+}
+
+/* ── Newsletter / email signup section ───────────────── */
+/* Ensure all text inside dark green scheme-4 is cream/white */
+.color-scheme-4,
+.color-scheme-4 *:not(input):not(button):not(.button) {
+  color: #F5F1EB;
+}
+.color-scheme-4 h2,
+.color-scheme-4 h3,
+.color-scheme-4 p,
+.color-scheme-4 .newsletter__subheading,
+.color-scheme-4 .rte,
+.color-scheme-4 label,
+.color-scheme-4 .field__label {
+  color: #F5F1EB !important;
+}
+
+/* Input field on dark background */
+.color-scheme-4 .field__input {
+  background-color: rgba(255, 255, 255, 0.12) !important;
+  border-color: rgba(245, 241, 235, 0.5) !important;
+  color: #F5F1EB !important;
+}
+.color-scheme-4 .field__input::placeholder {
+  color: rgba(245, 241, 235, 0.6) !important;
+}
+.color-scheme-4 .field__input:focus {
+  border-color: #F5F1EB !important;
+  outline: 2px solid rgba(245, 241, 235, 0.3);
+}
+
+/* Arrow submit button — white on dark bg */
+.color-scheme-4 .newsletter-form__button,
+.color-scheme-4 .field__button {
+  background-color: var(--color-gold) !important;
+  border-color: var(--color-gold) !important;
+  color: #FFFFFF !important;
+}
+.color-scheme-4 .newsletter-form__button svg,
+.color-scheme-4 .field__button svg,
+.color-scheme-4 .svg-wrapper svg {
+  stroke: #FFFFFF !important;
+  fill: #FFFFFF !important;
+  color: #FFFFFF !important;
+}
+.color-scheme-4 .newsletter-form__button:hover,
+.color-scheme-4 .field__button:hover {
+  background-color: #b8952f !important;
+}
+
+/* Also apply to scheme-3 (dark green #1F3D2B) */
+.color-scheme-3,
+.color-scheme-3 h2,
+.color-scheme-3 h3,
+.color-scheme-3 p,
+.color-scheme-3 .rte,
+.color-scheme-3 label {
+  color: #FFFFFF !important;
+}
+.color-scheme-3 .field__input {
+  background-color: rgba(255, 255, 255, 0.12) !important;
+  border-color: rgba(255, 255, 255, 0.4) !important;
+  color: #FFFFFF !important;
+}
+.color-scheme-3 .newsletter-form__button,
+.color-scheme-3 .field__button {
+  background-color: var(--color-gold) !important;
+  border-color: var(--color-gold) !important;
+}
+.color-scheme-3 .newsletter-form__button svg,
+.color-scheme-3 .field__button svg {
+  stroke: #FFFFFF !important;
+  fill: #FFFFFF !important;
+}
+
+/* ── Footer ──────────────────────────────────────────── */
+.footer__content-top,
+.footer .h4,
+.footer__heading {
+  color: var(--color-primary) !important;
+  font-weight: 700;
+}
+.footer a {
+  color: var(--color-accent);
+}
+.footer a:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+/* ── Collapsible tab icons ───────────────────────────── */
+.accordion summary svg,
+.accordion__icon {
+  stroke: var(--color-accent) !important;
+  color: var(--color-accent) !important;
 }
