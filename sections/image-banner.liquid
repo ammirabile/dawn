@@ -27,6 +27,25 @@
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
+
+  /* Velora: gradient overlay for text legibility */
+  #Banner-{{ section.id }} .banner__media::after {
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.05) 0%,
+      rgba(31, 61, 43, 0.25) 40%,
+      rgba(31, 61, 43, 0.75) 68%,
+      rgba(20, 45, 30, 0.93) 100%
+    );
+  }
+  #Banner-{{ section.id }} .banner__heading,
+  #Banner-{{ section.id }} .banner__heading * {
+    text-shadow: 0 2px 16px rgba(0, 0, 0, 0.55);
+  }
+  #Banner-{{ section.id }} .banner__text,
+  #Banner-{{ section.id }} .banner__text * {
+    text-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
+  }
 {%- endstyle -%}
 
 {%- liquid
