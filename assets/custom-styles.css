@@ -235,13 +235,4 @@
   color: var(--color-accent) !important;
 }
 
-/* ── Hero banner: frosted glass text card ────────────── */
-.banner__box {
-  background: rgba(20, 45, 30, 0.50) !important;
-  -webkit-backdrop-filter: blur(3px);
-  backdrop-filter: blur(3px);
-  border-radius: 8px;
-  padding: 28px 36px !important;
-}
-
 /* v2 */
