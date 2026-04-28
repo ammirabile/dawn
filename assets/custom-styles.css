@@ -236,3 +236,41 @@
 }
 
 /* v2 */
+
+/* ── Paw print ratings ───────────────────────────────────── */
+/* Replaces Dawn's Unicode star approach with SVG paw icons.
+   Two layers: grey empty paws (::before) + gold filled paws clipped to rating % (::after) */
+
+.rating-star {
+  width: calc((5 * var(--font-size) + 4 * var(--letter-spacing)) * 1rem);
+  height: calc(var(--font-size) * 1rem);
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  letter-spacing: 0;
+  font-size: 0;
+}
+
+/* Layer 1: 5 grey (empty) paw prints */
+.rating-star::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cellipse cx='12' cy='16.5' rx='5' ry='4.5' fill='%23d4d4d4'/%3E%3Cellipse cx='6' cy='11' rx='2.5' ry='2' fill='%23d4d4d4'/%3E%3Cellipse cx='10' cy='8.5' rx='2' ry='2.2' fill='%23d4d4d4'/%3E%3Cellipse cx='14' cy='8.5' rx='2' ry='2.2' fill='%23d4d4d4'/%3E%3Cellipse cx='18' cy='11' rx='2.5' ry='2' fill='%23d4d4d4'/%3E%3C/svg%3E");
+  background-repeat: repeat-x;
+  background-size: 20% 100%;
+  -webkit-background-clip: border-box !important;
+  background-clip: border-box !important;
+  -webkit-text-fill-color: currentColor !important;
+}
+
+/* Layer 2: 5 gold (filled) paw prints, clipped to rating percentage */
+.rating-star::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cellipse cx='12' cy='16.5' rx='5' ry='4.5' fill='%23C9A84C'/%3E%3Cellipse cx='6' cy='11' rx='2.5' ry='2' fill='%23C9A84C'/%3E%3Cellipse cx='10' cy='8.5' rx='2' ry='2.2' fill='%23C9A84C'/%3E%3Cellipse cx='14' cy='8.5' rx='2' ry='2.2' fill='%23C9A84C'/%3E%3Cellipse cx='18' cy='11' rx='2.5' ry='2' fill='%23C9A84C'/%3E%3C/svg%3E");
+  background-repeat: repeat-x;
+  background-size: 20% 100%;
+  clip-path: inset(0 calc(100% - var(--percent)) 0 0);
+}
