@@ -74,6 +74,10 @@
         "judge_me_reviews_preview_badge_eg6zcV": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
+        },
+        "judge_me_reviews_preview_badge_BFJPxD": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         }
       },
       "block_order": [
@@ -87,7 +91,8 @@
         "description",
         "collapsible-row-0",
         "share",
-        "judge_me_reviews_preview_badge_eg6zcV"
+        "judge_me_reviews_preview_badge_eg6zcV",
+        "judge_me_reviews_preview_badge_BFJPxD"
       ],
       "settings": {
         "enable_sticky_info": true,
